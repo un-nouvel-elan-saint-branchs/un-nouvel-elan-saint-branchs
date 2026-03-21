@@ -6,3 +6,7 @@ url: "https://un-nouvel-elan-saint-branchs.github.io/un-nouvel-elan-saint-branch
 markdown: kramdown
 
 theme: minima
+
+backend:
+  name: git-gateway
+  branch: main
