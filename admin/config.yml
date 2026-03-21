@@ -2,6 +2,7 @@ backend:
   name: github
   repo: un-nouvel-elan-saint-branchs/un-nouvel-elan-saint-branchs
   branch: main
+  base_url: https://enchanting-genie-e4d085.netlify.app
 
 site_url: https://un-nouvel-elan-saint-branchs.github.io/un-nouvel-elan-saint-branchs/
 
