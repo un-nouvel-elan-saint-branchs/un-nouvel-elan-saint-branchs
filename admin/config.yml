@@ -1,6 +1,9 @@
 backend:
   name: github
   repo: un-nouvel-elan-saint-branchs/un-nouvel-elan-saint-branchs
+  branch: main
+
+site_url: https://un-nouvel-elan-saint-branchs.github.io/un-nouvel-elan-saint-branchs
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
