@@ -1,0 +1,7 @@
+- nom: "Nom Élu 1"
+  photo: "/assets/images/elus/elu1.jpg"
+  description: "Conseiller municipal"
+
+- nom: "Nom Élu 2"
+  photo: "/assets/images/elus/elu2.jpg"
+  description: "Conseiller municipal"
