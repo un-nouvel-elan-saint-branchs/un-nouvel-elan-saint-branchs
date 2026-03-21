@@ -2,12 +2,15 @@ backend:
   name: git-gateway
   branch: main
 
-site_url: https://un-nouvel-elan-saint-branchs.github.io/un-nouvel-elan-saint-branchs
+site_url: https://un-nouvel-elan-saint-branchs.github.io/un-nouvel-elan-saint-branchs/
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
 
+locale: "fr"
+
 collections:
+
   - name: "posts"
     label: "Articles"
     folder: "_posts"
@@ -16,4 +19,25 @@ collections:
     fields:
       - { label: "Titre", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Auteur", name: "author", widget: "string", required: false }
+      - { label: "Résumé", name: "excerpt", widget: "text", required: false }
+      - { label: "Image", name: "thumbnail", widget: "image", required: false }
       - { label: "Contenu", name: "body", widget: "markdown" }
+
+  - name: "conseils"
+    label: "Conseils municipaux"
+    folder: "_conseils"
+    create: true
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Résumé", name: "excerpt", widget: "text", required: false }
+      - { label: "Contenu", name: "body", widget: "markdown" }
+
+  - name: "dossiers"
+    label: "Dossiers"
+    folder: "_dossiers"
+    create: true
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Description", name: "body", widget: "markdown" }
