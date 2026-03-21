@@ -3,6 +3,8 @@ backend:
   repo: un-nouvel-elan-saint-branchs/un-nouvel-elan-saint-branchs
   branch: main
 
+site_url: https://enchanting-genie-e4d085.netlify.app
+
 media_folder: "assets/images"
 public_folder: "/assets/images"
 
