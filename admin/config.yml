@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: TON-USERNAME/un-nouvel-elan-saint-branchs
+  repo: un-nouvel-elan-saint-branchs/un-nouvel-elan-saint-branchs
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
