@@ -14,7 +14,7 @@ title: Accueil
 ## 📰 Dernières actualités
 
 {% for post in site.posts limit:3 %}
-- [{{ post.title }}]({{ post.url }})
+- [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
 
 ---
@@ -22,7 +22,7 @@ title: Accueil
 ## 🏛️ Dernier conseil municipal
 
 {% assign conseil = site.conseils | last %}
-- [{{ conseil.title }}]({{ conseil.url }})
+- [{{ conseil.title }}]({{ site.baseurl }}{{ conseil.url }})
 
 ---
 
