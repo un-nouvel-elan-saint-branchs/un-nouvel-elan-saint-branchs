@@ -1,0 +1,71 @@
+media:
+  input: assets/images
+  output: /assets/images
+
+content:
+  - name: posts
+    label: Articles
+    type: collection
+    path: _posts
+    filename: "{year}-{month}-{day}-{title}"
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Titre
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+      - name: author
+        label: Auteur
+        type: string
+        required: false
+      - name: excerpt
+        label: Résumé
+        type: text
+        required: false
+      - name: thumbnail
+        label: Image
+        type: image
+        required: false
+      - name: body
+        label: Contenu
+        type: rich-text
+
+  - name: conseils
+    label: Conseils municipaux
+    type: collection
+    path: _conseils
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Titre
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+      - name: excerpt
+        label: Résumé
+        type: text
+        required: false
+      - name: body
+        label: Contenu
+        type: rich-text
+
+  - name: dossiers
+    label: Dossiers
+    type: collection
+    path: _dossiers
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Titre
+        type: string
+        required: true
+      - name: body
+        label: Description
+        type: rich-text
