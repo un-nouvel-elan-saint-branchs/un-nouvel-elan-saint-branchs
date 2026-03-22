@@ -3,7 +3,7 @@ layout: default
 title: Accueil
 ---
 
-![Bandeau](/assets/images/bandeau.jpg)
+![Bandeau]({{ site.baseurl }}/assets/images/bandeau.jpg)
 
 ## Bienvenue
 
@@ -30,6 +30,6 @@ title: Accueil
 
 {% for membre in site.data.equipe %}
 ### {{ membre.nom }}
-![photo]({{ membre.photo }})
+![photo]({{ site.baseurl }}/{{ membre.photo }})
 {{ membre.description }}
 {% endfor %}
