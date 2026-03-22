@@ -1,7 +1,15 @@
-- nom: "Nom Élu 1"
-  photo: "/assets/images/elus/elu1.jpg"
+- nom: "Allyson Kilbrai"
+  photo: "/assets/images/elus/allyson.png"
   description: "Conseiller municipal"
 
-- nom: "Nom Élu 2"
-  photo: "/assets/images/elus/elu2.jpg"
+- nom: "Renaud Trameçon"
+  photo: "/assets/images/elus/renaud.png"
+  description: "Conseiller municipal"
+
+- nom: "Odile Heulin"
+  photo: "/assets/images/elus/odile.png"
+  description: "Conseiller municipal"
+
+- nom: "Ludovic Cuisinier"
+  photo: "/assets/images/elus/ludovic.png"
   description: "Conseiller municipal"

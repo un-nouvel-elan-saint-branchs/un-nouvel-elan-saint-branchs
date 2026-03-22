@@ -28,8 +28,12 @@ title: Accueil
 
 ## 👥 L'équipe
 
+<div class="team-grid">
 {% for membre in site.data.equipe %}
-### {{ membre.nom }}
-![photo]({{ site.baseurl }}/{{ membre.photo }})
-{{ membre.description }}
+<div class="team-card">
+  <img src="{{ site.baseurl }}{{ membre.photo }}" alt="{{ membre.nom }}" class="team-photo">
+  <strong>{{ membre.nom }}</strong>
+  <span>{{ membre.description }}</span>
+</div>
 {% endfor %}
+</div>
