@@ -7,7 +7,7 @@ content:
     label: Articles
     type: collection
     path: _posts
-    filename: "{year}-{month}-{day}-{title}"
+    filename: "{year}-{month}-{day}-{title}.md"
     format: yaml-frontmatter
     fields:
       - name: title
